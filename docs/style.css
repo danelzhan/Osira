@@ -34,7 +34,7 @@ body {
     color: #FBFBFB;
     width: 4rem;
     height: 100vh;
-    margin-left: 40vw;
+    margin-left: 43vw;
     display: flex;
     justify-content: center;
     overflow: visible; /* allow overflow */
@@ -76,7 +76,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 20rem;
+    margin-left: 17vw;
 
 }
 
@@ -99,4 +99,8 @@ body {
     background-color: #FBFBFB;
     color: #1D1D1D;
     cursor: pointer;
+}
+
+#hero_button_label {
+    user-select: none;
 }
