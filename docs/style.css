@@ -30,6 +30,41 @@ body {
 #banner {
     background-color: #1D1D1D;
     color: #FBFBFB;
+    width: 4rem;
+    height: 100vh;
+    margin-left: 40vw;
+    display: flex;
+    justify-content: center;
+    overflow: visible; /* allow overflow */
+    align-items: flex-end;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: scroll-up 7s linear infinite;
+}
+
+.banner-content span {
+
+    transform: rotate(90deg); /* Rotate text 90 degrees counterclockwise */
+    display: inline-block;
+    margin: 13vh;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(50%);
+  }
 }
 
 #hero {

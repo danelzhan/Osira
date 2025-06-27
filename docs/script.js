@@ -1,1 +1,0 @@
-var words = ["Assistant", "Agent", "Optimizer", "Manager"]; 
